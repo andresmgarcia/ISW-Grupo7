@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.glassmorphism {
+ background: rgba(255,255,255,0.05);
+ backdrop-filter: blur(10px);
+ border-top: 1px solid rgba(255,255,255,0.2);
+ border-left: 1px solid rgba(255,255,255,0.2);
+ box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+
+.bg {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: radial-gradient(circle at 30% 86%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 8%, transparent 8%, transparent 92%), 
+                    radial-gradient(circle at 55% 100%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 8%, transparent 8%, transparent 92%), 
+                    radial-gradient(circle at 40% 75%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), 
+                    radial-gradient(circle at 7% 99%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), 
+                    radial-gradient(circle at 69% 76%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), 
+                    radial-gradient(circle at 2% 35%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), 
+                    radial-gradient(circle at 14% 48%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 6%, transparent 6%, transparent 94%), 
+                    radial-gradient(circle at 28% 87%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 4%, transparent 4%, transparent 96%), 
+                    radial-gradient(circle at 65% 14%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 4%, transparent 4%, transparent 96%), 
+                    radial-gradient(circle at 51% 36%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 4%, transparent 4%, transparent 96%), 
+                    radial-gradient(circle at 6% 93%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0.04) 4%, transparent 4%, transparent 96%), 
+                    linear-gradient(160deg, #007090, #007190);
+  background-color: #007090;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+s
+::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0000005d;
+  border-radius: 15px;
+
+}
+
+.logo {
+  display: flex;
+  margin: auto;
+  width: 200px;
+  padding: 8px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #01A7C2;
+
+}
+
+.subirfoto {
+  background-color: #EAEBED;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 4px;
+  color: rgb(0, 0, 0);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh;
+  min-height: 400px;
+  height: fit-content;
+  max-width: 400px;
+  margin: auto;
+  margin-block: 30px;
+  padding-top: 20px;
+  border-radius: 10px;
+  overflow: auto;
+  position: relative;
+  background-color: #01A7C2;
+  backdrop-filter: blur(15px);
+  scrollbar-width: thin;
+  scrollbar-color: #e3e3e3 transparent;
+
+}
+
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  margin-block-start: 20px;
+  max-width: 400px;
+  gap: 25px;
+  border-radius: 20px;
+  padding: 20px;
+  height: 100%;
+  overflow: auto; 
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  gap: 10px;
+  text-align: left;
+}
+
+.input {
+  padding: 15px;
+  border-radius: 2px;
+  width: 300px;
+  display: flex;
+  border:none;
+  border-bottom:1px solid;
+  background-color: rgba(0, 0, 0, 0.089);
+  background-color: #EAEBED;
+}
+
+.radio-group{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 8px;
+}
+
+
+.summary {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  margin: auto;
+  gap: 2px;
+  border-radius: 20px;
+  max-width: 350px;
+  width: 100%;
+
+}
+
+.total {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  translate: -50% ;
+  font-size: larger;
+  font-weight: 600;
+  background-color: #EAEBED;
+  width: 80%;
+  height: 30px;
+  border-radius: 15px 15px 0px 0px;
+
+}
+
+
+.go-back-button {
+  position: absolute;
+  top: 5px; /* Adjust the top position as needed */
+  left: 5px; /* Adjust the left position as needed */
+  background-color: #A3BAC3; /* Button background color */
+  color: #006989; /* Text color */
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* Style the button on hover */
+.go-back-button:hover {
+  background-color: #adc5ce;
+
+}
+
+.submit-button {
+  padding: 15px;
+  background-color: #A3BAC3;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  width: 100px;
+}
+
+.submit-button:hover {
+  padding: 15px;
+  background-color: #adc5ce;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  width: 100px;
+}
+
+
+input, select {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+.swing-in-bottom-bck {
+	animation: swing-in-bottom-bck 0.6s cubic-bezier(0.175, 0.885, 0.320, 1.275) both;
+}
+
+
+@keyframes swing-in-bottom-bck {
+  0% {
+    transform: rotateX(-70deg);
+    transform-origin: bottom;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0);
+    transform-origin: bottom;
+    opacity: 1;
+  }
+}
