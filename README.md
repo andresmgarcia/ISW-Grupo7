@@ -1,2 +1,2 @@
-# DeliverEat
-gestion del proyecto deliverEat - Grupo 7 
+# SCM de ISW
+ Grupo 7 
