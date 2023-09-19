@@ -1,0 +1,41 @@
+VISUALIZAR GASTOS 
+
+Como (responsable de gastos) quiero/puedo visualizar los gastos cotidianos generados
+Para que se pueda llevar un seguimiento en un peridodo de tiempo
+
+Criterios de aceptacion
+-El usuario debe estar registrado
+-la planilla debe ser similar a una tabla excel.
+-las columnas a visualizar deben ser monto,...
+-se deben mostrar gastos del mes en curso ordenados desde el mas actual
+-
+
+Pruebas de aceptacion
+probar no visualizar la planilla de gastos cuando tengo la sesion abierta
+probar que devuelva lo que corresponde en cuanto a periodo, mes en curso y usuario
+probar generar una planilla con datos completos registrados 
+-Probar visualizar, con datos cargados y que no se muestre ningun dato(falla)
+-Probar visualizar, con datos cargados y que se muestren los (paso) 
+-Que los datos visualizados no sean en el mes en curso(falla)
+-Que los datos visualizados sean en el mes en curso(paso)
+-Que muestre los datos incompletos(falla)
+-Que muestre los datos completos(paso)
+-
+
+
+
+Listado de user
+Iniciar sesion
+Registrar Gasto
+Registrar usuario
+Visualizar gastos
+Filtrar gastos
+Administrar Tipo de gasto
+Administrar responsable de gasto
+Cerrar sesion
+
+Filtrar gastos
+
+
+CA
+PA
