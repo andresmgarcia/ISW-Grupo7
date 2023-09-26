@@ -1,0 +1,51 @@
+DeliverEat!
+
+
+Roles 
+	
+	cliente - cadete - comercio
+	
+UserStories
+	
+	Registrar Usuario con fb 
+		""			  con mail
+		""			 con google
+		
+	Registrar comercio adherido  *podemos asumir que ya esta resuelto
+	Agregar producto al carrito
+	Modifica	""
+	Quitar	""
+	Visualizar productos(el filtro simplemente es un criterio de aceptacion)
+	Filtrar comercio es un gris(puede llegar a ser un CA)
+	Consultar Ubicacion cadete/Visualizar estado del pedido (se puede separar para tratar la parte de conectar con Maps y eso )
+	Iniciar sesion
+	Consultar comercio(con filto o por separado)
+	Consultar pedido
+{	Recibir notificacion preparacion pedido(le llega al comercio)  3
+	Recibir notificacion traslado pedido(le llega al cadete)		2
+	Notifica entrega de pedido (lo hace el cadete) 					3
+}	|escribir y estimar|
+
+user canonica Registrar usuario con mail 
+	
+	
+	Recibir notificacion preparacion pedido 
+
+	Como usuario comercio quiero recibir una notificacion de la preparacion del pedido
+	para saber cuando comenzar a preparar el pedido solicitado por el cliente
+
+Criterios de aceptacion
+	el usuario debe estar registrado
+	el pedido debe estar pagado
+	el pedido debe estar registrado
+	la notificacion tiene que ser push?
+	
+
+
+Prueba de aceptacion
+	probar un pedido que tenga una cantidad negativa o que sea 0
+	se comprueba que se recibe la notificacion cuando un cliente realiza un pedido al comercio y pasa
+
+
+	
+
