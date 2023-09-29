@@ -1,0 +1,66 @@
+product backlog
+hacer una maraca
+hacer un tambor
+hacer una armonica
+hacer un cicus
+hacer un palo de lluvia
+
+
+PRIORIZACION
+
+tambores de lata 3
+maracas = 2
+guitarra = 8
+armonica = 5
+zampoñas = 5
+palo de lluvia = 5(por agregarle al final)
+
+
+SPRINT 1
+
+cu - creacion de maracas
+cu - creaacion de tambores
+
+planingg 2
+
+continuar con zampoña
+empezar palo de lluvia
+corregir color de maraca
+corregir tambor color negro 
+
+guitarra proximo sprint 
+amronica proximo sprint
+
+
+sprint 2
+cu - creacion de zampoña
+cu - creacion de maraca(corregi el color)
+cu - creacion de palo de lluvia
+
+
+planing 3 
+comenzo de guitara
+correcion de palo de lluvia
+estrella verde en tambor
+comienzo de armonica
+
+
+Sprint 3
+cu - registrar guitarra
+cu - modificar palo de lluvia
+cu - modifiar tambor
+cu - cracion de armonica
+
+--------------------------
+REVIEW
+
+
+RETRO
+
+
+
+
+
+Metricas
+
+
