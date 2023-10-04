@@ -1,4 +1,9 @@
 # SCM de ISW
+
+https://docs.google.com/document/d/1otvuGcNIOlgBHrusWx1FRW_gstZeIUqS6r3HUUWdvc0/edit
+
+Link para revisar el documento con criterios 
+
  Grupo 7 
 Objetivo:
 El objetivo de este documento es proporcionar una guía clara y detallada sobre los criterios que deben cumplirse antes de establecer una línea base en proyectos de desarrollo de software.
